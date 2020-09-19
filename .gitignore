@@ -1,0 +1,5 @@
+/venv
+/.idea
+*.pyc
+manage.py
+db.sqlite3
