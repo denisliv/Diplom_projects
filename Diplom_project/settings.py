@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'WeatherApp.apps.WeatherappConfig',
+    'Search.apps.SearchConfig'
 ]
 
 MIDDLEWARE = [
@@ -129,3 +130,4 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
+YOUTUBE_DATA_API_KEY = 'AIzaSyBnNpnvkYRgB-XC55i0nBSARqqm__PpYbA'

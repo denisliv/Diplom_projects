@@ -6,6 +6,7 @@ from Diplom_project import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('WeatherApp.urls')),
+    path('Search/', include('Search.urls'))
 ]
 
 if settings.DEBUG:
